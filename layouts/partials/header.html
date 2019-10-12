@@ -14,7 +14,7 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="{{ .Site.BaseURL }}">/home/{{.Site.Params.HeaderUsername}}</a>
+					<a href="{{ .Site.BaseURL }}">home{{.Site.Params.HeaderUsername}}</a>
 				</li>
 				{{ range .Site.Menus.header }}
 				{{ $name := lower .Name }}
@@ -24,12 +24,12 @@
                     <ul class="dropdown-menu">
                         {{ range .Children }}
                     		<li>
-                    		<a href="{{ .URL }}">~/{{ lower .Name }}</a>
+                    		<a href="{{ .URL }}">{{ lower .Name }}</a>
 				    		</li>
                 		{{ end }}
             		</ul>
             		{{ else }}
-            		<a href="{{ .URL }}">~/{{ lower .Name }}</a>
+            		<a href="{{ .URL }}">{{ lower .Name }}</a>
             		{{ end  }}
         		</li>
         		{{ end }}
