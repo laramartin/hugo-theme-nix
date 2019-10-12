@@ -79,6 +79,10 @@ i {
 	color: #38A1F3;
 }
 
+.fa-medium:hover {
+	color: lightgreen;
+}
+
 .fa-linkedin:hover {
 	color: #2867B2;
 }
