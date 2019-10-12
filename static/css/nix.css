@@ -84,11 +84,19 @@ i {
 }
 
 .fa-envelope:hover {
-	color: #D44638;
+	color: red;
 }
 
 .fa-github:hover {
 	color: deeppink;
+}
+
+.fa-podcast:hover {
+	color: hotpink;
+}
+
+.fa-paint-brush:hover {
+	color: aquamarine;
 }
 
 .post-link {
