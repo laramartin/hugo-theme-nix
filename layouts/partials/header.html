@@ -8,13 +8,14 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
+			<a class="navbar-brand" id="navbar-usernamne" href={{.Site.BaseURL}}>{{.Site.Params.HeaderUsername}}</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="{{ .Site.BaseURL }}">home{{.Site.Params.HeaderUsername}}</a>
+					<a href="{{ .Site.BaseURL }}">home</a>
 				</li>
 				{{ range .Site.Menus.header }}
 				{{ $name := lower .Name }}

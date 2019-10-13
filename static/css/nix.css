@@ -18,9 +18,9 @@ img {
  	max-width: 100%;
 }
 
-
-#green-terminal {
-	color: #00ff00;
+#navbar-username {
+	color: #333;
+	font-family: 'Inconsolata', monospace;
 }
 
 .font-header {
@@ -167,6 +167,7 @@ i {
 	width: 100%;
 	padding: 10px;
 	height: 50px;
+	font-family: "Inconsolata", monospace;
 }
 
 .push {
