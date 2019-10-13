@@ -18,11 +18,6 @@ img {
  	max-width: 100%;
 }
 
-#navbar-username {
-	color: #333;
-	font-family: 'Inconsolata', monospace;
-}
-
 .font-header {
 	font-family: 'Inconsolata', monospace;
 }
@@ -40,7 +35,16 @@ nav {
 	border-bottom-color: #fac0e1;
 }
 
-.navbar-inverse li a {
+.navbar-inverse .navbar-brand {
+	color: #333;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#navbar-username {
+}
+
+.navbar-inverse .navbar-nav li a {
 	color: #333;
 }
 
